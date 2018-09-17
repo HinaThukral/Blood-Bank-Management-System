@@ -1,0 +1,65 @@
+header h1{
+	background-color: #ff1919;
+	margin: 0;
+	height: 4rem;
+}
+h1{
+	text-align: center;
+	color: #DCDCDC;
+	padding-top: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DCDCDC;
+    padding-top: 20px;
+}
+
+
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-around;
+  height: 3rem;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    flex-direction: row;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.mySlides {display:none;}
+
+div img{
+	margin-left: 24rem;
+	margin-top: 3rem;
+	
+}
+nav ul a{
+    text-decoration: none;
+    color: #ff1919;
+}
+form{
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+}
+table th{
+	background-color: #DCDCDC;
+}
+
+input .edit{
+	top:0;
+}
